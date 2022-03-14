@@ -19,9 +19,16 @@ margin: 0;
   }
 
   .headerMenuBlock {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
+    background-color: #c9bbe247;
+    -webkit-box-shadow: 8px 11px 11px -5px rgba(34, 60, 80, 0.6);
+-moz-box-shadow: 8px 11px 11px -5px rgba(34, 60, 80, 0.6);
+box-shadow: 8px 11px 11px -5px rgba(34, 60, 80, 0.6);
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        
 }
 
 .headerMenu .menu {
@@ -34,7 +41,7 @@ margin: 0;
     margin: 0;
     padding: 0;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 li{
@@ -182,6 +189,8 @@ li a:after{
     justify-content: center;
     align-content: center;
     align-items: flex-start;
+    margin-left: 80px;
+    margin-right: 80px;
 }   
 
 .myInfo div {
@@ -349,36 +358,92 @@ transition: all 400ms;
   
 
 
-  .containerContact {
-      width: auto;
-      height: auto;
-    align-content: center;
-      
-      background-color: #a17fe0;
-      border: none;
-      margin: 0;
-      padding: 25px;
+.sectionContact {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+   }
+
+   .containerContact {
+    width: auto;
+    height: auto;
+  align-content: center;
+    background-color: #c9bbe26d;
+    border: none;
+    margin: 0;
+    padding: 25px;
+    padding-bottom: 45px ;
 }
 
-.containerContact p{
+.containerContact p {
     font-size: 24px;
     font-weight: 900;
     color: #384948;
    text-align: center;
 }
 
-.buttonContact{
-    background-color: #59C173;
-    width: auto
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    margin: 10px;
-    cursor: pointer;
-}
 
-.sectionContact {
- margin-top: 60px;
- margin-bottom: 60px;
-}
+
+
+/*---------------------------------------------------*/
+
+
+button {
+    margin: 0;
+  }
+
+  .buttonContact {
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    justify-content: center;
+
+  }
+
+  .buttonContact {
+    background: #b621fe;
+    border: none;
+    z-index: 1;
+    font-family: 'Fredoka', sans-serif;
+
+  }
+  .buttonContact:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 25px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .buttonContact:hover {
+    color: #fff;
+  }
+  .buttonContact:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .buttonContact:active {
+    top: 2px;
+  }
+ 
