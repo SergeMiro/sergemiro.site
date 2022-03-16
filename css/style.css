@@ -10,6 +10,9 @@ background: #59C173;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin: 0;
+font-size: 16px;
+color: rgb(40, 42, 45);
+font-weight: 600;
 }
 
 .main {
@@ -47,20 +50,6 @@ margin: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 li{
     margin-left: 50px;
     margin-right: 50px;
@@ -71,7 +60,7 @@ li a:hover{
     text-decoration: underline;
     padding: 3px;
     color: rgb(197, 231, 45);
-    transition: all .35s;
+    transition: all 0.15s ease-in-out;
 }
 
 
@@ -225,6 +214,7 @@ li a:after{
     color: rgb(79, 77, 77);
     font-weight: 600;
     margin-top: 25px;
+    margin-bottom: 12px;
 }
 
 .containerOfSites  {
@@ -379,7 +369,6 @@ transition: all 400ms;
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
-    justify-content: center;
    }
 
    .containerContact {
@@ -389,8 +378,8 @@ transition: all 400ms;
     background-color: #c9bbe26d;
     border: none;
     margin: 0;
-    padding: 25px;
-    padding-bottom: 45px ;
+    padding: 45px 0;
+   
 }
 
 .containerContact p {
@@ -463,6 +452,9 @@ button {
   .buttonContact:active {
     top: 2px;
   }
+
+
+
  
   .headerMenu ul {
    justify-content: center;
@@ -512,3 +504,107 @@ button {
               transform: rotate(360deg);
     }
   }
+
+
+
+  .myService{
+   margin: 30px;
+    }
+ 
+.myService h2{
+   text-align: center;
+   margin-bottom: 15px;
+   text-decoration: underline;
+   font-weight: 900;
+      }
+
+  .containerService{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+      }
+
+.flexService{
+    margin: 15px;
+    width: 30%;
+    }
+
+    .flexService h3 {
+        padding-bottom: 10px;
+        }
+    
+
+
+.formContact{
+    margin-top: 50px;
+}
+
+
+.contact {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: flex-start;
+    align-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .contact div h2{
+       font-weight: 700;
+       margin-top: 10px;
+       margin-bottom: 20px; 
+       color: rgb(57, 56, 56);
+    }
+
+    #name, #mail, #message {
+        margin-bottom: 10px;
+        width: 700px;
+        border-radius: 7px;
+        background-color: rgba(232, 236, 240, 0.7);
+        outline: none;
+        border: none;
+     }
+     #name, #mail {
+      height: 28px;
+      }
+
+      input::placeholder, textarea::placeholder {
+        color: grey;
+        font-size: 1em;
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
+      textarea::placeholder {
+        padding-top: 5px ;
+      }
+
+      #submit {
+        width: 130px;
+        padding: 5px 10px;
+        border-radius: 7px;
+        color: rgb(35, 33, 33);
+        background-color: rgba(232, 236, 240, 0.7);
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      .itemMyInfo h3 {
+        margin-bottom: 13px;
+        font-weight: 700;
+      }
+
+      .itemMyInfo p {
+        font-weight: 600;
+      }
+
+
+ 

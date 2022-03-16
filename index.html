@@ -6,6 +6,7 @@
   <title>Miro Development</title>
   <link rel="stylesheet" href="css/iconsfont.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/boxHomePage.css">
 </head>
 
   <!-- HEADER - La tete de notre site -->
@@ -18,16 +19,16 @@
                 <a href="index.html"> <img src="img/logo.png" class="logo"></a>
             </li> 
           <li>
-            <a href="index.html">Acceuil</a>
+            <a href="index.html">Accueil</a>
           </li>
           <li>
             <a href="projects.html">Projets</a>
           </li>
           <li>
-            <a href="ourDevelopers.html">À propos de moi</a>
+            <a href="aboutMe.html">À propos de moi</a>
           </li>
           <li>
-            <a href="contact.html">Contacte</a>
+            <a href="contact.html">Contact</a>
           </li>
         
         </ul>
@@ -35,49 +36,233 @@
     </div>
   </header>
 
+
+
 <main>
+  <section class="box">
+    <div class="container"> 
+      <div class="slider">
 
+          <div class="box1 box">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1>Reservia</h1>
+                  <p>
+                    Ce site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. 
+                    Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance. 
+                    Ce projet a été créé en utilisant les technologies: HTML, CSS, JS. 
+                  </p>
+                  <br>
+                  <button>Check Now</button>
+              </div>
+  
 
+              <div class="illustration">
+                  <a href="https://sergemiro.github.io/sergiyMirochnyk_2_30032021/" target="blank"><img src="img/site1.PNG" alt="ReserviaSite"></a>
+            </div>
+          </div>
+                          
+          
+          <div class="box2 box">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1>Ohmyfood</h1>
+                  <p>
+                    L'objectif de ce projet a été de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Les technoligies utilisées: HTML, CSS, JS.
+                 <br>
+                 <br>
+                    <button>Check Now</button>
+              </div>
 
-  <section class="projects">
-      <div class="containerAllSites">
+              <div class="illustration">
+                <a href="https://sergemiro.github.io/sergiyMirochnyk_3_08052021/" target="blank"><img src="img/site2.PNG" alt="ohMyFoodSite"></a>
+              </div>
+          </div>
+                          
+          <div class="box3 box">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1>I'm the third Box</h1>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <button>Check Now</button>
+              </div>
 
-         <!-- First site-->
-         <p>1</p>
-      <div class="containerOfSites">
-          <a href="https://sergemiro.github.io/sergiyMirochnyk_2_30032021/" target="blank"><img src="img/site1.PNG" alt="ReserviaSite"></a>
+              <div class="illustration">
+                  <a href="https://sergemiro.github.io/sergiyMirochnyk_4_28062021/" target="blank"><img src="img/site3.PNG" alt="gameOnSite"></a>
+              </div>
+          </div>
+                          
+          <div class="box4 box">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1>I'm the fourth Box</h1>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <button>Check Now</button>
+              </div>
+
+              <div class="illustration"><div class="inner"></div></div>
+          </div>
+                          
+          <div class="box5 box">
+              <div class="bg"></div>
+              <div class="details">
+                  <h1>I'm the fifth Box</h1>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing 
+                      elit. Integer lacinia dui lectus. Donec scelerisque ipsum
+                      diam, ac mattis orci pellentesque eget. 
+                  </p>
+                  <button>Check Now</button>
+              </div>
+
+              <div class="illustration"><div class="inner"></div></div>
+          </div>
+                          
       </div>
 
-        <!-- Seconde site-->
-        <p>2</p>
-        <div class="containerOfSites">
-            <a href="https://sergemiro.github.io/sergiyMirochnyk_3_08052021/" target="blank"><img src="img/site2.PNG" alt="ohMyFoodSite"></a>
+      <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+      <div class="trail">
+              <div class="box1 active">1</div>
+              <div class="box2">2</div>
+              <div class="box3">3</div>
+              <div class="box4">4</div>
+              <div class="box5">5</div>
+      </div>
+  </div>   
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
+  <script src="js/index.js"></script>
+</section>
+
+
+<br>
+<section class="myService">
+  <h2>Services proposés</h2> 
+  <div class="containerService">
+
+      <div class="flexService">
+        <h3>Web design</h3>
+        <p>
+          Votre identité de marque (logo, design de tous supports web) est créée sur mesure pour répondre aux besoins de votre cible:
+        </p>
+        <ul>
+          <li>
+            Design de site internet
+          </li>
+          <li>
+            Application web & mobile
+          </li>
+          <li>
+            Mise en page de contenu
+          </li>
+        </ul>
+      </div>
+
+      <div class="flexService">
+        <h3>Développement de site web</h3>
+        <p>
+          La création de site web est indispensable pour améliorer la visibilité de ses activités. Le développement de votre site web est réalisé avec soin et répond aux standards web du W3C:
+        </p>
+          <ul>
+            <li>
+              HTML5 & CSS3
+            </li>
+            <li>
+              Design responsive (adaptable ordinateur, tablette, smartphone)
+            </li>
+         </ul>
         </div>
       
-      <!--Thirth site-->
-      <p>3</p>
-      <div class="containerOfSites">
-            <a href="https://sergemiro.github.io/sergiyMirochnyk_4_28062021/" target="blank"><img src="img/site3.PNG" alt="gameOnSite"></a>
+
+      <div class="flexService">
+        <h3>Développement d'application mobile</h3>
+        <p>
+          Aujourd’hui, plus de la moitié du traffic sur le web est réalisé via un périphérique mobile (smartphone, tablette). Le développement d’une application mobile pour votre entreprise est donc un service devenu incontournable:
+        </p>
+          <ul>
+            <li>
+              Développement d’application iOS (iPhone, iPad)
+            </li>
+            <li>
+              Développement d’application Android (Samsung, Sony, Huawei, Xiaomi …)
+            </li>
+         </ul>
+        </div>
+      
+
+      <div class="flexService">
+        <h3>Référencement (SEO)</h3>
+        <p>
+          Votre site internet est développé avec pour objectif d’apparaître dans les premières pages sur les moteurs de recherche:
+        </p>
+          <ul>
+            <li>
+              Temps de chargement des pages optimisés
+            </li>
+            <li>
+              Indexation automatique des pages
+            </li>
+            <li>
+              Intégration des différents réseaux sociaux
+            </li>
+         </ul>
+        </div>
+     
+        <div class="flexService">
+          <h3>Hébergement</h3>
+          <p>
+            Votre site internet est hébergé sur un serveur puissant, robuste, supportant la montée en charge et situé au plus proche de vos visiteurs:
+          </p>
+            <ul>
+              <li>
+                Serveurs dédiés       
+              </li>
+              <li>
+                Serveurs dans le cloud
+              </li>
+           </ul>
+          </div>
+
+          <div class="flexService">
+            <h3>Maintenance</h3>
+            <p>
+              Un site internet en bonne santé est un site internet mis à jour.
+              Les forfaits de maintenance proposés sont le fruits d’années d’expérience et des solutions apportées à mes clients afin de vous garantir un site internet performant et fiable:
+            </p>
+              <ul>
+                <li>
+                  Maintenance WordPress  
+                </li>
+                <li>
+                  Maintenance E-commerce
+                </li>
+             </ul>
+            </div>
+
       </div>
-
-    </div>
-  </section>
-
-  <section class="sectionContact">
-      <div class="containerContact">
-        <p>Prêt à démarrer la création de votre site web ?</p>
-        <button class="buttonContact" onclick="document.location='contact.html'">Contactez-moi</button>
-      </div>
-  </section>
-
-
-
-
-
-
+</section>
 </main>
 
 
+<div>
+  <footer>
+
+
+  </footer>
+  
+</div>
 
 
 
