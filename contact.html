@@ -11,6 +11,8 @@
 
   <!-- HEADER - La tete de notre site -->
 <body>
+	<div class="wrapper">
+	
   <header>
     <div class="headerMenuBlock">
       <nav class="headerMenu">
@@ -30,22 +32,20 @@
           <li>
             <a href="contact.html">Contact</a>
           </li>
-        
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main class="main">
     <section class="formContact"> 
       <div class="contact">
-
         <div>
-          <h2>Demander un devis gratuit
-          </h2>
+          <h2>Demander un devis gratuit</h2>
         </div>
 
-        <div>
+      <div class="flexFormContact">
+        <div class="itemFlexFormContact">
           <form action="/">
             <input type="text" id="name" placeholder="Nom *">
             <br>
@@ -56,27 +56,38 @@
             <input type="submit" id="submit">
           </form>
         </div>
-     
       </div>
-    </section>
 
+		<aside>
+        <p>Vous pouvez utiliser ce formulaire de contact pour me contacter.</p> 
+		</aside>
 
-
-
-
-
-
-
-
-
-
+  </div>
   </main>
 
-
-  <footer>
-
+  <br>
+  	<footer>
+		<div class="footer"> 
+			<div class="flexFooter">
+			<h3>Développeur Web</h3>
+			<p>
+				Développeur Web, je suis à votre disposition pour répondre à tout type de projets de création de sites 
+				internet vitrine, e-commerce, de développement spécifique ou d’applications web.
+				Passionné par les technologies Web, je mets mes compétences au service de vos besoins dans divers domaines.
+			</p>
+			</div> 
+	
+			<div class="flexFooter">
+			<h3>Contact:</h3>
+			<p>mirochnyk.sergiy@gmail.com</p>
+			<a href="/"><img src="img/icons/linkedin.png" alt="iconLinkedIn"></a>
+			<a href="/"><img src="img/icons/twitter.png" alt="iconTwitter"></a>
+			</div>
+      
+    	</div>
+ 	 </section>
   </footer>
-
-
-
+  	
+	</div>
   </body>
+  </html>
