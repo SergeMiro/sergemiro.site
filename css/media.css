@@ -1,0 +1,132 @@
+
+@media (min-width:1201px){
+	.containerService{
+		max-width: none;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.flexService{
+		margin: 15px;
+		width: 30%;
+		}
+		.flexService h3{
+			padding-bottom: 10px;
+			}
+}
+
+@media (max-width:1200px){
+	.containerService{
+		max-width: none;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.flexService{
+		margin: 15px;
+		width: 30%;
+		}
+		.flexService h3{
+			padding-bottom: 10px;
+			}
+}
+
+
+@media (max-width:992px){
+	.box {
+		display: none;
+	}
+	.containerService{
+		max-width: none;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.flexService{
+		margin: 15px;
+		width: 40%;
+		}
+		.flexService h3{
+			padding-bottom: 10px;
+			}
+}
+
+
+@media (max-width:767px){
+	.box {
+		display: none;
+	}
+	.containerService{
+		max-width: none;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 2px;
+	}
+	.flexService{
+		margin: 15px;
+		width: 45%;
+		}
+		.flexService h3{
+			padding-bottom: 5px;
+			}
+	  
+}
+
+
+/*****************************************************/
+/**** ДОПОЛНИТЕЛЬНЫЙ BREAKPOINT*****/
+@media (max-width:610px){
+	.box {
+		display: none;
+	}
+	.containerService{
+		max-width: none;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 2px;
+	}
+	.flexService{
+		margin: 15px 5px;
+		width: 100%;
+		font-size: 14px;
+		}
+	.flexService h3{
+		padding-bottom: 3px;
+		}
+		
+
+		.flexFooter1{
+			display: none;
+					 }
+			
+}
+/****************************************************/
+
+@media (max-width:420px){
+	.box {
+		display: none;
+	}
+	.containerService{
+		max-width: none;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 1px;
+	}
+	.flexService{
+		margin: 10px 5px;
+		width: 100%;
+		font-size: 13px;
+		}
+	.flexService h3{
+		padding-bottom: 3px;
+		}
+
+		.flexFooter1{
+			display: none;
+					 }
+			
+}
+}
