@@ -203,7 +203,7 @@ box-shadow: none;
 		overflow: auto;
 		transition: all 0.3s ease 0s;
 		background-color: #18b5a4;
-		padding: 70px 10px 20px 10px;
+		padding: 240px 10px 200px 10px;
 	}
 
 	.header__menu.active{

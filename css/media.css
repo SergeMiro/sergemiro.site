@@ -127,7 +127,7 @@
 		border-bottom-right-radius: 0px;
 	}
 	.header__list{
-	padding-top: 200px;
+		
 	}
 
 	.glitch {
@@ -258,6 +258,15 @@
 		.footer{
 			margin-left: 0;
 			}
-			
+
 }
 
+@media (max-width:308px){
+	.sectionMob{
+		display: none;
+	}
+	footer
+	{
+		display: none;
+	}
+}
