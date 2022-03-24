@@ -1,6 +1,9 @@
 
 @media (min-width:1201px){
-
+	.header:before{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 115px;
+	}
 	.glitch {
 		font-family: 'Limelight', cursive;
 		color: #44d1a5;
@@ -32,6 +35,13 @@
 }
 
 @media (max-width:1200px){
+	.header:before{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 115px;
+	}
+	.header__list{
+	transform: translate(-100px, 0px);
+	 }	
 	.glitch {
 		font-family: 'Limelight', cursive;
 		color: #44d1a5;
@@ -65,6 +75,13 @@
 
 
 @media (max-width:992px){
+	.header:before{
+		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 115px;
+	}
+	.header__list{
+		transform: translate(-100px, 0px);
+	}
 	.glitch {
 		font-family: 'Limelight', cursive;
 		color: #44d1a5;
@@ -101,9 +118,18 @@
 
 
 @media (max-width:767px){
-	.header__list li{
-		color: red;
-	 }
+	.header__list{
+		transform: translate(0px, 0px);
+	}
+	
+	 .header:before{
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	.header__list{
+	padding-top: 200px;
+	}
+
 	.glitch {
 		font-family: 'Limelight', cursive;
 		color: #44d1a5;
