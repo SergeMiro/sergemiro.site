@@ -13,13 +13,16 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
 }
-
+.illustration{
+	margin: 0;
+	padding-right: 80px;
+ }
 .illustration img{
-  width: 600px;
+
+  width: 100%;
   transform: rotateX(195deg) rotateY(173deg) rotateZ(173deg);
-  margin-right: 100px;
-  margin-bottom: 30px;
   opacity: 0.85;
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -58,7 +61,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   width: 500%;
-  height: 55rem;
+  height: 50rem;
   -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
   -webkit-transform: translateX(0);
@@ -99,6 +102,7 @@ html {
     -ms-grid-column: 1;
   }
 }
+
 .slider .box .bg {
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.2);
@@ -147,15 +151,17 @@ html {
             transform: skewX(0deg);
   }
 }
+
 .slider .box .details {
-  padding: 5rem;
-  padding-left: 10rem;
+  padding: 0rem;
+  padding-left: 7rem;
   z-index: 100;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/span 1;
   grid-row: 1/-1;
 }
+
 @media only screen and (max-width: 650px) {
   .slider .box .details {
     -ms-grid-row: 2;
@@ -168,6 +174,7 @@ html {
             transform: translateY(-9rem);
   }
 }
+
 .slider .box .details h1 {
   font-size: 3.5rem;
   font-weight: 500;
@@ -180,11 +187,13 @@ html {
   margin-bottom: 2rem;
   margin-right: 5rem;
 }
+
 @media only screen and (max-width: 800px) {
   .slider .box .details p {
     margin-right: 0;
   }
 }
+
 .slider .box .details button {
   padding: 1rem 3rem;
   color: #fff;
