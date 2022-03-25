@@ -25,7 +25,9 @@
 	.containerOfSites img {
 		border-radius: 20px;
 	}
-
+	#h2Service{
+		margin: 15px auto;
+		}
 	.flexService{
 		margin: 15px;
 		width: 30%;
@@ -103,6 +105,9 @@
   .containerContact p {
 	font-size: 24px;
 }
+#h2Service{
+	margin: 15px auto;
+	}
 .footer{
 	margin: 15px auto;
 	padding-left: 150px;
@@ -150,6 +155,9 @@
 		margin: 15px;
 		width: 40%;
 		}
+		#h2Service{
+			margin: 10px auto;
+			}
 
 	.flexService h3{
 			padding-bottom: 10px;
