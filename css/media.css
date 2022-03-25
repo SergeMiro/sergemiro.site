@@ -22,6 +22,10 @@
 		max-width: 100%;
 		margin: 17px auto;
 	}
+	.containerOfSites img {
+		border-radius: 20px;
+	}
+
 	.flexService{
 		margin: 15px;
 		width: 30%;
@@ -76,7 +80,9 @@
 		max-width: 100%;
 		margin: 17px auto;
 	}
-
+	.containerOfSites img {
+		border-radius: 20px;
+	}
 	.flexService{
 		margin: 15px;
 		width: 30%;
@@ -182,6 +188,9 @@
 	.containerOfSites{
 		max-width: 95%;
 		margin: 10px auto;
+	}
+	.containerOfSites img {
+		border-radius: 10px;
 	}
 
 	.glitch {
