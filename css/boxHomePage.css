@@ -18,11 +18,10 @@ html {
 	padding-right: 80px;
  }
 .illustration img{
-
   width: 100%;
   transform: rotateX(195deg) rotateY(173deg) rotateZ(173deg);
   opacity: 0.85;
-
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 800px) {
