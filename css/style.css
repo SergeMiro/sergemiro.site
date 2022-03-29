@@ -68,7 +68,7 @@ background: linear-gradient(to right, #bcaadf, #d8c3ff, #a7e4b5); /* W3C, IE 10+
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	height: 60px;
+	height: 65px;
 	align-items: center;
 }
 .header__logo {
@@ -196,7 +196,7 @@ box-shadow: none;
 
 	.header__menu {
 		position: fixed;
-		top: -100%;
+		top: -200%;
 		left: 0;
 		width: 100%;
 		height: 100%;
