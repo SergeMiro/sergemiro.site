@@ -7,8 +7,8 @@ body{
 font-family: 'Fredoka', sans-serif;
 text-decoration: none;
 background: #d7f8df;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffffff, #d9d4e4, #d1e0d5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #d0ccd8, #e5d7ff, #cde7d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #f5f1f1, #e0dfe4, #e1ebe3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5f1f1, #e0dfe4, #e1ebe3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 font-size: 16px;
 color: rgb(40, 42, 45);
@@ -40,7 +40,7 @@ html, body  {
   .container{
 	max-width: 1180px;
 	margin: 0px auto;
-	padding: 0px 10px;
+	padding: 3px;
 }
 
 .header {
@@ -57,9 +57,9 @@ html, body  {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #bef5cc;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f1c2c2, #baa4e9, #a0ebb4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #bcaadf, #d8c3ff, #a7e4b5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #a86bbc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a86bbc, #ccbeec, #bdebc9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,  #a86bbc, #ccbeec, #bdebc9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	z-index: 2;
 
 }
@@ -120,6 +120,7 @@ box-shadow: none;
 .header__list {
 	display: flex;
 	position: relative;
+	padding: 0;
 	z-index: 2;
 }
 
@@ -203,8 +204,8 @@ box-shadow: none;
 		overflow: auto;
 		transition: all 0.3s ease 0s;
 		background: #bef5cc;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #f1c2c2, #baa4e9, #a0ebb4);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #bcaadf, #d8c3ff, #a7e4b5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: -webkit-linear-gradient(to right, #eed7d7, #ccbeec, #bdebc9);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right,  #eed7d7, #ccbeec, #bdebc9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		padding: 85px 0;
 	}
 
@@ -250,6 +251,11 @@ box-shadow: none;
     margin: 0px auto;
     padding: 0px 10px;
  }
+
+ .sectionMobImg{
+	max-width: 1180px;
+	padding: 0;
+}
 
 .glitch {
 	color: #0bc78d7d;
@@ -735,28 +741,21 @@ img {
    .containerContact {
     width: auto;
     height: auto;
-  align-content: center;
+	 align-content: center;
     background-color: #c9bbe26d;
     border: none;
-    margin: 0;
-
 }
 
 .containerContact p {
     font-weight: 900;
     color: #384948;
-   text-align: center;
+	 text-align: center;
 }
 
 
 
 
 /*---------------------------------------------------*/
-
-
-button {
-    margin: 0;
-  }
 
   .buttonContact {
     width: 160px;
@@ -776,16 +775,12 @@ button {
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
     justify-content: center;
-
-  }
-
-  .buttonContact {
     background: #b621fe;
     border: none;
     z-index: 1;
     font-family: 'Fredoka', sans-serif;
-
   }
+
   .buttonContact:after {
     position: absolute;
     content: "";
@@ -977,7 +972,9 @@ button {
       }
 
       footer{
-        background-color: #76c78a76;
+			background: #a86bbc;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #a86bbc, #ccbeec, #bdebc9);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right,  #a86bbc, #ccbeec, #bdebc9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
       }
@@ -1005,15 +1002,18 @@ button {
 
       .flexFooter1 h3,
 		.flexFooter2 h3 {
-        margin-bottom: 7px;
+        margin-bottom: 5px;
+		  margin-top: 0;
       }
-
+		.flexFooter1 p,
+		.flexFooter2 p {
+        margin: 2px 0px;
+      }
 
 
       .flexFooter2 img{
         width: 50px;
         opacity: 0.8;
-        margin-top: 10px;
         margin-right: 5px;
         border-radius: 25%;
         box-shadow: none;
