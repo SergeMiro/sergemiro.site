@@ -108,18 +108,37 @@
 // console.log(logWithLastName('Miro'))
 
 
-//Массивы
-const cars = ['Mazda', 'Ford', 'BMW', 'Mersedez']
-const fib = [1, 1, 2, 3, 5, 8, 13]
+// //Массивы
+// const cars = ['Mazda', 'Ford', 'BMW', 'Mersedez']
+// const fib = [1, 1, 2, 3, 5, 8, 13]
 
-function addItemToEnd() {
-	
-}
-//Метод для массива
-cars.push('Renault')
-cars.unshift('Volga')
-const	firstItem = cars.shift()
-console.log(firstItem);
-console.log(cars)
+// function addItemToEnd() {
+// }
+// //Метод для массива
+// cars.push('Renault')
+// cars.unshift('Volga')
+// const	firstItem = cars.shift()
+// console.log(firstItem);
+// console.log(cars)
 
+// //Задача-1
+// const text = 'Hello, life is good'
+// const reverseText = text.split('').reverse().join('')
+// console.log('reverseText: ', reverseText);
 
+// //----------
+// const index = cars.indexOf('Ford')
+// console.log(cars[index])
+
+// //---------
+// const people = [
+// 	{name: 'Serge', budget: 1500},
+// 	{name: 'ALina', budget: 1000},
+// 	{name: 'Richi', budget: 2000}
+// ]
+// const person = people.find(function(person){
+// 	return person.budget === 1500
+// })
+// console.log(person)
+
+//---------
