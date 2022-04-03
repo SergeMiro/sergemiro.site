@@ -9,7 +9,7 @@ text-decoration: none;
 background: #d7f8df;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f5f1f1, #e0dfe4, #e1ebe3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #f5f1f1, #e0dfe4, #e1ebe3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+margin: 0;
 font-size: 16px;
 color: rgb(40, 42, 45);
 font-weight: 600;

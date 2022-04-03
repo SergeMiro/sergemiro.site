@@ -95,7 +95,7 @@
 // }
 
 // const res = sumAll(1, 2, 3, 4)
-// console.log('res: ', res)
+// console.log(res)
 
 // //Замыкания 
 // function createMember (name){
@@ -108,37 +108,76 @@
 // console.log(logWithLastName('Miro'))
 
 
-// //Массивы
-// const cars = ['Mazda', 'Ford', 'BMW', 'Mersedez']
-// const fib = [1, 1, 2, 3, 5, 8, 13]
+//Массивы
+const cars = ['Mazda', 'Ford', 'BMW', 'Mersedez']
+const fib = [1, 1, 2, 3, 5, 8, 13]
 
-// function addItemToEnd() {
-// }
-// //Метод для массива
-// cars.push('Renault')
-// cars.unshift('Volga')
-// const	firstItem = cars.shift()
-// console.log(firstItem);
-// console.log(cars)
+function addItemToEnd() {
+}
 
-// //Задача-1
-// const text = 'Hello, life is good'
-// const reverseText = text.split('').reverse().join('')
-// console.log('reverseText: ', reverseText);
+//Метод для массива
+cars.push('Renault')
+cars.unshift('Volga')
+const	firstItem = cars.shift()
+console.log(firstItem);
+console.log(cars)
 
-// //----------
-// const index = cars.indexOf('Ford')
-// console.log(cars[index])
+//Задача-1
+const text = 'Hello, life is good'
+const reverseText = text.split('').reverse().join('')
+console.log(reverseText);
 
-// //---------
-// const people = [
-// 	{name: 'Serge', budget: 1500},
-// 	{name: 'ALina', budget: 1000},
-// 	{name: 'Richi', budget: 2000}
-// ]
-// const person = people.find(function(person){
-// 	return person.budget === 1500
-// })
-// console.log(person)
+//----------
+const index = cars.indexOf('Ford')
+console.log(cars[index])
 
 //---------
+const people = [
+	{name: 'Serge', budget: 1500},
+	{name: 'ALina', budget: 1000},
+	{name: 'Richi', budget: 2000}
+]
+const person = people.find(function(person){
+	return person.budget === 1500
+})
+console.log(person)
+
+//---------
+let findedPerson
+for (const person of people) {
+	if (person.budget === 1000) {
+		findedPerson = person
+	}
+}
+console.log(findedPerson);
+
+//Методы высокого порядка:
+//--Метод MAP, возврат массива
+const upperCaseCars = cars.map (car => {
+	return car.toUpperCase()
+})
+console.log(upperCaseCars)
+
+const pow2Fib = fib.map (num => num **2 )
+console.log(pow2Fib);
+
+const pow3 = num =>num **2
+const pow3Fib = fib.map(pow3)
+console.log(pow3Fib);
+
+//--Метод Filter, фильтрация массива
+const filteredNumbers = pow3Fib.filter(num=> {
+	return num>20
+})
+console.log (filteredNumbers);
+
+//--Метод Reduce, соединение данных
+const allBudget = people
+	.filter (person => person.budget>1000)
+	.reduce((acc, person) => {
+		acc += person.budget
+		return acc
+	}, 0)
+console.log(allBudget)
+
+//
