@@ -1067,12 +1067,10 @@ img {
 			width: auto;
 			height: auto;
 	 		justify-content: center;
-			 margin: 20px 0 20px 0;
 		  }
 
 		  .block_cv img {
-			border-radius: 15px;
-			width: 60%;
+			border-radius: 15px;	
 		  }
 		  
 		  .download_cv{
@@ -1083,15 +1081,12 @@ img {
 		}
 
 		.download_cv svg{
-			width: 150px;
 			box-shadow: none;
 			fill: #3c915e;
 			cursor: pointer;
-			margin-bottom: 15px;
 		}
 
 		.download_cv svg:hover{
-			width: 150px;
 			box-shadow: none;
 			fill: #85c19d;
 		}
