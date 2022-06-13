@@ -27,15 +27,6 @@ html, body  {
 	flex-direction: column;
 	justify-content: center;
 }
-	.wrapper__contact{
-		display: flex;
-		width: auto;
-		min-height: 100%;
-		overflow: hidden;
-		flex-direction: column;
-		justify-content: center;
-		background-color: #DEE6E0;
-	}
 
 .main {
     flex: 1 1 auto;
