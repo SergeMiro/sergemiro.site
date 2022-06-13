@@ -34,7 +34,7 @@ html, body  {
 		overflow: hidden;
 		flex-direction: column;
 		justify-content: center;
-		background-color: #b794d4a3;
+		background-color: #DEE6E0;
 	}
 
 .main {
@@ -44,7 +44,6 @@ html, body  {
 
 
 /***************HEADER START******************/
-
 
   .container{
 	max-width: 1180px;
@@ -1223,6 +1222,7 @@ img {
 		
 		.file__item {
 			position: relative;
+			color: white;
 		}
 		.file__input {
 			position: absolute;
@@ -1337,15 +1337,16 @@ img {
 			font-size: 13px;
 			margin: 5px 0 0 0 ;
 		}
-
-
+		.form {
+			color: #945a9b;
+		}
+		
 
 @media (min-width:1201px){
 	.form {
 		max-width: 650px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 50px 0 50px 0;
+		padding: 0 0 50px 0;
 	}
 }
 
@@ -1353,8 +1354,7 @@ img {
 	.form {
 		max-width: 550px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 50px 0 50px 0;
+		padding: 0 0 50px 0;
 	}
 }
 
@@ -1362,24 +1362,21 @@ img {
 	.form {
 		max-width: 500px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 50px 0 50px 0;
+		padding: 0 0 50px 0;
 	}
 }
 @media (max-width:820px){
 	.form {
 		max-width: 500px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 50px 0 50px 0;
+		padding: 0 0 50px 0;
 	}
 }
 @media (max-width:767px){
 	.form {
 		max-width: 500px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 30px 0 60px 0;
+		padding: 0 0 60px 0;
 	}
 }
 
@@ -1387,16 +1384,14 @@ img {
 	.form {
 		max-width: 500px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 30px 0 60px 0;
+		padding: 0 0 60px 0;
 	}
 }
 @media (max-width:510px){
 	.form {
 		max-width: 480px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 30px 0 60px 0;
+		padding: 0 0 60px 0;
 	}
 }
 
@@ -1404,79 +1399,69 @@ img {
 	.form {
 		max-width: 450px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 20px 0 40px 0;
+		padding: 0 0 40px 0;
 	}
 }
 @media (max-width:460px){
 	.form {
 		max-width: 430px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 15px 0 40px 0;
+		padding: 0 0 40px 0;
 	}
 }
 @media (max-width:440px){
 	.form {
 		max-width: 410px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 0 35px 0;
+		padding: 0 0 35px 0;
 	}
 }
 @media (max-width:420px){
 	.form {
 		max-width: 370px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 0 35px 0;
+		padding: 0 0 35px 0;
 	}
 }
 @media (max-width:400px){
 	.form {
 		max-width: 365px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 5px 35px 0;
+		padding: 0 5px 35px 0;
 	}
 }
 @media (max-width:380px){
 	.form {
 		max-width: 345px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 5px 35px 0;
+		padding: 0 5px 35px 0;
 	}
 }
 @media (max-width:360px){
 	.form {
 		max-width: 320px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 5px 35px 0;
+		padding: 0 5px 35px 0;
 	}
 }
 @media (max-width:340px){
 	.form {
 		max-width: 300px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 10px 35px 0;
+		padding: 0 10px 35px 0;
 	}
 }
 @media (max-width:320px){
 	.form {
 		max-width: 280px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 10px 35px 0;
+		padding: 0 10px 35px 0;
 	}
 }
 @media (max-width:308px){
 	.form {
 		max-width: 250px;
 		margin: 0px auto;
-		color: #fff;
-		padding: 10px 10px 35px 0;
+		padding: 0 10px 35px 0;
 	}
 }
