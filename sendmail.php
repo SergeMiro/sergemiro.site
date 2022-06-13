@@ -48,7 +48,7 @@
 
 	//Отправляем
 	if (!$mail->send()) {
-		$message = 'Erreur';
+		$message = 'Ooops, une erreur est apparue!';
 	} else {
 		$message = 'Votre message a été envoyé.';
 	}
