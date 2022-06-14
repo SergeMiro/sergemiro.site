@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
 @media (min-width:1201px){
+	.all__services{
+		display: none;
+	}
 	.homeImageMob{
 		display: none;
 	}
 	.header:before{
 		border-bottom-left-radius: 30px;
 		border-bottom-right-radius: 115px;
+		box-shadow: 0 5px 5px #2d0c4f84;
 	}
 	.glitch {
 		font-family: 'Limelight', cursive;
@@ -41,6 +47,8 @@
 	}
 	#h2Service{
 		margin: 15px auto;
+		font-family: 'Limelight', cursive;
+		color: #743ca2f7;
 		}
 	
 	.flexService{
@@ -89,12 +97,16 @@
 }
 
 @media (max-width:1200px){
+	.all__services{
+		display: none;
+	}
 	.homeImageMob{
 		display: none;
 	}
 	.header:before{
 		border-bottom-left-radius: 30px;
 		border-bottom-right-radius: 115px;
+		box-shadow: 0 5px 5px #2d0c4f84;
 	}
 	.header__list{
 	transform: translate(-100px, 0px);
@@ -155,6 +167,8 @@
 }
 #h2Service{
 	margin: 15px auto;
+	font-family: 'Limelight', cursive;
+	color: #743ca2f7;
 	}
 .footer{
 	margin: 15px auto;
@@ -182,9 +196,18 @@
 .box {
 	display: none;
 }
+.all__services{
+	display: none;
+}
 }
 
 @media (max-width:992px){
+	.all__services{
+		display: block;
+	}
+	.box__desktop{
+		display: none;
+	}
 	.sectionMobImg{
 		margin-bottom: 8px;
 	}
@@ -263,6 +286,7 @@
 	.header:before{
 		border-bottom-left-radius: 30px;
 		border-bottom-right-radius: 115px;
+		box-shadow: 0 5px 5px #2d0c4f84;
 	}
 	.header__list{
 		transform: translate(-100px, 0px);
@@ -306,6 +330,8 @@
 		}
 		#h2Service{
 			margin: 10px auto;
+			font-family: 'Limelight', cursive;
+			color: #743ca2f7;
 			}
 
 	.flexService h3{
@@ -348,6 +374,9 @@
 
 
 @media (max-width:767px){
+	.box__desktop{
+		display: none;
+	}
 	.header__list{
 		transform: translate(0px, 0px);
 	}
@@ -355,6 +384,7 @@
 	 .header:before{
 		border-bottom-left-radius: 0px;
 		border-bottom-right-radius: 0px;
+		box-shadow: none;
 	}
 
 	.containerOfSites{
@@ -405,6 +435,8 @@
 
 	#h2Service{
 		margin-top: -10px;
+		font-family: 'Limelight', cursive;
+		color: #743ca2f7
 		}
 		.flexFooter2{
 			margin: 10px 70px 2px 70px;
@@ -510,6 +542,8 @@
 	#h2Service{
 		margin-top: -10px;
 		font-size: 18px;
+		font-family: 'Limelight', cursive;
+		color: #743ca2f7;
 		}
 
 		.block_cv {
