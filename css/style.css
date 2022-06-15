@@ -26,6 +26,8 @@ html, body  {
 	overflow: hidden;
 	flex-direction: column;
 	justify-content: center;
+	background-image: url(/img/background.jpg);
+	background-attachment: fixed
 }
 
 .main {
