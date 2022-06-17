@@ -11,9 +11,9 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('mirochnyk204628@gmail.com', 'SergeMiro Dev');
+	$mail->setFrom('mirochnyk.sergiy@gmail.com', 'SergeMiro Dev');
 	//Кому отправить
-	$mail->addAddress('mirochnyk.sergiy@gmail.com!');
+	$mail->addAddress('m106113@hostnl03.fornex.host');
 	//Тема письма
 	$mail->Subject = 'SALUT, UN DEVIS POUR TOI - SergeMiro Dev -';
 
