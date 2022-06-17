@@ -635,7 +635,8 @@ img {
 	-webkit-box-shadow: 10px 10px 6px 4px #9e76b1af;
 	-moz-box-shadow: 10px 10px 6px 4px #9e76b1af;
 	box-shadow: 10px 10px 6px 4px #9e76b1af;
-	transition: all .3s ease-in-out;	 
+	transform: scale(1.03);
+	transition: all .2s ease-in-out;	 
 }
 
 
