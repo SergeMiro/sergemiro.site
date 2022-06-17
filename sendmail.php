@@ -11,7 +11,7 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom(' ', 'SergeMiro Dev');
+	$mail->setFrom('m106113@hostnl03.fornex.host', 'SergeMiro Dev');
 	//Кому отправить
 	$mail->addAddress('m106113@hostnl03.fornex.host');
 	//Тема письма
