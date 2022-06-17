@@ -11,11 +11,11 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('mirochnyk.sergiy@gmail.com', 'SergeMiro Dev');
+	$mail->setFrom(' ', 'SergeMiro Dev');
 	//Кому отправить
 	$mail->addAddress('m106113@hostnl03.fornex.host');
 	//Тема письма
-	$mail->Subject = 'SALUT, UN DEVIS POUR TOI - SergeMiro Dev -';
+	$mail->Subject = 'UN DEVIS POUR TOI - SergeMiro Dev -';
 
 
 
@@ -39,7 +39,7 @@
 		//грузим файл
 		if (copy($_FILES['image']['tmp_name'], $filePath)){
 			$fileAttach = $filePath;
-			$body.="<p><strong>Capture d'écran :</strong>";
+			$body.="<p><strong>Pièces jointes :</strong>";
 			$mail->addAttachment($fileAttach);
 		}
 	}
@@ -48,7 +48,7 @@
 
 	//Отправляем
 	if (!$mail->send()) {
-		$message = 'Ooops, une erreur est apparue!';
+		$message = 'Ooops, il semble y avoir une erreur!';
 	} else {
 		$message = 'Votre message a été envoyé.';
 	}
