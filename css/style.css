@@ -84,7 +84,8 @@ html, body  {
 }
 
 .header__logo img:hover{
-	opacity: 0.8;
+	
+	transform: scale(1.3);
 	transition: all .5s ease-in-out;
 }
 
@@ -107,14 +108,20 @@ html, body  {
 	list-style: none;
 	margin: 0px 0px 0px 20px;
 	text-align: center;
+	transition: all 0.2s ease-in;
 }
-
+.header__list li:hover{
+	transform: scale(1.15);
+	transition: all 0.2s ease-in;
+}
 .header__link {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 18px;
 	text-decoration: none;
 }
+
+
 
 @media (max-width:767px){
 	body.lock{
@@ -439,10 +446,14 @@ li{
 
 li a:hover{
     font-size: 115%;
-    text-decoration: underline;
     padding: 3px;
-    color: #0fc78ddb;
-    transition: all 0.15s ease-in-out;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+	 transform: scaleZ(2);
+
+	 text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+	 -webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+	 -moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 }
 
 
@@ -659,9 +670,15 @@ img {
 }
 
 .containerContact p {
-    font-weight: 900;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Limelight', cursive;
+	 font-weight: bolder;
     color: #743ca2f7;
 	 text-align: center;
+	 text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 }
 /*---------------------------------------------------*/
 
@@ -1484,4 +1501,8 @@ background-color: #b87ecfd4;
 	font-family: 'Limelight', cursive;
 	color: #743ca2f7;
 	padding-top: 30px;
+
+	text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 }
