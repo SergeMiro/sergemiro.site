@@ -76,6 +76,7 @@ html, body  {
 	overflow: hidden;
 	position: relative;
 	z-index: 3;
+	-webkit-tap-highlight-color: transparent;
 }
 .header__logo img{
 	max-width: 100%;
@@ -91,6 +92,7 @@ html, body  {
 
 .header__burger {
 	display: none;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .header__menu {
@@ -119,6 +121,7 @@ html, body  {
 	text-transform: uppercase;
 	font-size: 18px;
 	text-decoration: none;
+	
 }
 
 
@@ -207,6 +210,7 @@ background: linear-gradient(to right,  #c098ce, #baa8e6, #bdebc9); /* W3C, IE 10
 	}
 	.header__link {
 		font-size: 24px;
+		-webkit-tap-highlight-color: transparent;
 	}
 }
 
@@ -617,6 +621,7 @@ li a:after{
     width: auto;
     height: auto;
 justify-content: center;  
+-webkit-tap-highlight-color: transparent;
 }
 
 img {
@@ -701,6 +706,7 @@ img {
 	transition: background-color 0.5s ease 0s;
 	position: relative;
 	top: 0;
+	-webkit-tap-highlight-color: transparent;
   }
 
 .buttonContact:hover {
@@ -912,6 +918,7 @@ background-color: #b87ecfd4;
         margin-right: 5px;
         border-radius: 25%;
         box-shadow: none;
+		  -webkit-tap-highlight-color: transparent;
       }
 
       .flexFooter2 img:hover{
@@ -961,6 +968,7 @@ background-color: #b87ecfd4;
 			width: auto;
 			height: auto;
 	 		justify-content: center;
+			 -webkit-tap-highlight-color: transparent;
 		  }
 
 		  .block_cv img {
@@ -972,6 +980,7 @@ background-color: #b87ecfd4;
 			width: auto;
 			height: auto;
 			justify-content: center;
+			-webkit-tap-highlight-color: transparent;
 		}
 
 		.download_cv svg{
@@ -1104,6 +1113,7 @@ background-color: #b87ecfd4;
 		.file__item {
 			position: relative;
 			color: white;
+			-webkit-tap-highlight-color: transparent;
 		}
 		.file__input {
 			position: absolute;
@@ -1123,6 +1133,7 @@ background-color: #b87ecfd4;
 			align-items: center;
 			background-color: #77608d;
 			padding: 0px 20px;
+			-webkit-tap-highlight-color: transparent;
 		}
 		.file__preview {
 			display: inline-block;
@@ -1200,6 +1211,7 @@ background-color: #b87ecfd4;
 			transition: background-color 0.5s ease 0s;
 			position: relative;
 			top: 0;
+			-webkit-tap-highlight-color: transparent;
 		}
 		.form__button:hover {
 			background-color: #b87ecfd4;
