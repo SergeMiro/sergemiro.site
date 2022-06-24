@@ -57,6 +57,9 @@
 		margin: 15px auto;
 		font-family: 'Limelight', cursive;
 		color: #743ca2f7;
+		text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 		}
 	
 	.flexService{
@@ -184,6 +187,9 @@
 	margin: 15px auto;
 	font-family: 'Limelight', cursive;
 	color: #743ca2f7;
+	text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 	}
 .footer{
 	margin: 15px auto;
@@ -352,6 +358,9 @@
 			margin: 10px auto;
 			font-family: 'Limelight', cursive;
 			color: #743ca2f7;
+			text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 			}
 
 	.flexService h3{
@@ -463,6 +472,9 @@
 		margin-top: -10px;
 		font-family: 'Limelight', cursive;
 		color: #743ca2f7
+		text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 		}
 		.flexFooter2{
 			margin: 10px 70px 2px 70px;
@@ -499,7 +511,7 @@
 /*****************************************************/
 /**** ДОПОЛНИТЕЛЬНЫЙ BREAKPOINT*****/
 @media (max-width:623px){
-	.reinisialisation{
+	.reinitial{
 		display: none;
 	}
 	.container__filter{
@@ -576,6 +588,9 @@
 		font-size: 18px;
 		font-family: 'Limelight', cursive;
 		color: #743ca2f7;
+		text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 		}
 
 		.block_cv {
