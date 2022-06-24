@@ -607,6 +607,7 @@ li a:after{
 
 
 .containerAllSites{
+	clear: both;
    display: flex;
    flex-direction: column;
    max-width: 100%;
@@ -663,8 +664,8 @@ img {
 }
 @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
 .sectionContact {
-    text-align: center;
-   }
+	text-align: center;
+}
 
    .containerContact {
     width: auto;
@@ -693,7 +694,6 @@ img {
 	display: inline-block;
 	justify-content: center;
 	align-items: center;
-	min-height: 60px;
 	background-color: #96cbaa;
 	color: #fff;
 	font-size: 18px;
@@ -712,6 +712,7 @@ img {
 .buttonContact:hover {
 background-color: #b87ecfd4;
 }
+
 
 .buttonContact:active {
 	top: 3px;
@@ -1518,3 +1519,52 @@ background-color: #b87ecfd4;
 -webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 -moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 }
+
+
+
+
+.section__filters{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 22px 8px 10px 8px;
+}
+
+.container__filter{
+	width: 50px;
+}
+.container__filter img{
+	margin: 0 auto;
+	box-shadow: none;
+	width: 100%;
+	height: auto;
+	transition: all .2s ease-in-out;
+}
+.container__filter img:hover{
+	transform: scale(1.15);
+	transition: all .2s ease-in-out;
+}
+
+.reinitial{
+	font-size: 12px;
+	color: rgb(88, 88, 88);
+	-moz-transform: translate(-1px, -11px);
+-webkit-transform: translate(-1px, -11px);
+-o-transform: translate(-1px, -11px);
+-ms-transform: translate(-1px, -11px);
+transform: translate(-1px, -11px);
+}
+
+
+.hide{
+	display: none;
+}
+
+
+
+
+
+
+

@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
 @media (min-width:1201px){
-	
+	.container__filter{
+		margin: 0 10px;
+		height: 50px;
+	}
 	.container_cv{
 		margin: 25px 0 0 0;
 	  }
@@ -48,6 +51,7 @@
 	}
 	.buttonContact{
 		margin-top: 10px;
+		min-height: 60px;
 	}
 	#h2Service{
 		margin: 15px auto;
@@ -68,7 +72,7 @@
 				width: 35%;		
 	}
 	.sectionContact {
-		margin: 20px auto 35px;
+		margin: 0;
 	  }
 	  .containerContact {
 		padding: 45px 0px;
@@ -101,6 +105,9 @@
 }
 
 @media (max-width:1200px){
+	.container__filter{
+		margin: 0 7px;
+	}
 	.container_cv{
 		margin: 25px 0 0 0;
 	  }
@@ -150,6 +157,7 @@
 	}
 	.buttonContact{
 		margin-top: 10px;
+		min-height: 60px;
 	}
 	.flexService{
 		margin: 15px;
@@ -163,7 +171,7 @@
 				width: 35%;
 	}		
 	.sectionContact {
-		margin: 20px auto 35px;
+		margin: 3px 0;
 	  }
 	  .containerContact {
 		padding: 45px 0px;
@@ -209,6 +217,10 @@
 }
 
 @media (max-width:992px){
+	.container__filter{
+		margin: 0 7px;
+		height: 50px;
+	}
 	.all__services{
 		display: block;
 	}
@@ -330,6 +342,7 @@
 	}
 	.buttonContact{
 		margin-top: 0px;
+		min-height: 50px;
 	}
 	.flexService{
 		margin: 15px;
@@ -351,7 +364,7 @@
 	}
 
 	.sectionContact {
-		margin: 10px auto 0px;
+		margin: 3px 0;
 	  }
 
 	.containerContact {
@@ -381,6 +394,9 @@
 
 
 @media (max-width:767px){
+	.container__filter{
+		margin: 0 5px;
+	}
 	.container_cv{
 		margin: 10px 0 0 0;
 	  }
@@ -453,7 +469,7 @@
 			width: 35%;
 	}
 	.sectionContact {
-		margin: 10px auto 0px;
+		margin: 3px 0;
 	  }
 	  .containerContact p {
 		font-size: 22px;
@@ -483,6 +499,12 @@
 /*****************************************************/
 /**** ДОПОЛНИТЕЛЬНЫЙ BREAKPOINT*****/
 @media (max-width:623px){
+	.reinisialisation{
+		display: none;
+	}
+	.container__filter{
+		margin: 0 5px;
+	}
 	.glitch {
 		font-family: 'Limelight', cursive;
 		color: #44d1a5;
@@ -531,7 +553,7 @@
 	width: 35%;
 }
 .sectionContact {
-	margin: 10px auto 0px;
+	margin: 3px 0;
   }
   
   .containerContact {
@@ -573,6 +595,10 @@
 /****************************************************/
 
 @media (max-width:420px){
+	.container__filter{
+		margin: 0 3px;
+		height: 35px;
+	}
 	.glitch{
 		font-family: 'Limelight', cursive;
 		color: #44d1a5;
@@ -622,7 +648,7 @@
 			width: 50%;
 		}
 		.sectionContact {
-			margin: 10px auto 0px;
+			margin: 3px 0;
 		  }
 		.containerContact {
 			padding: 25px 10px 25px 10px;
@@ -649,6 +675,13 @@
 }
 
 @media (max-width:308px){
+	.buttonContact{
+		margin-top: 0px;
+		min-height: 50px;
+	}
+	.container__filter{
+		margin: 0 2px;
+	}
 	.sectionMob{
 		display: none;
 	}
@@ -657,8 +690,8 @@
 		margin: 6px auto;
 	}
 	.sectionContact {
-	margin: 10px auto 0px;
-  }
+		margin: 3px 0;
+  	}
 	footer
 	{
 		display: none;

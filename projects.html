@@ -50,47 +50,136 @@
           <div class="glitch" data-text="< Mes projets />">< Mes projets /></div>
         </section>
 
+		  <section class="section__filters">
+				<div class="container__filter">
+					<img src="./img/icons/technologies/html5.png" data-f="html" alt="HTML5">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/css3.png"  data-f="css" alt="CSS3">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/sass.png"  data-f="sass" alt="SASS">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/bootstrap.png"  data-f="bootstrap" alt="Bootstrap">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/js.png"  data-f="js" alt="Javascript">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/jquery.png"  data-f="jquery" alt="jQuery">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/react.png"  data-f="react" alt="React">
+				</div>
+				<div class="container__filter">
+					<img src="./img/icons/technologies/angular.png"  data-f="angular" alt="Angular">
+				</div>
+				<div class="container__filter " style="width: 37px; padding-top: 5px; padding-left: 30px;">
+						<img src="./img/icons/clear_filter.png"  data-f="clear_filters" alt="Reset filters">
+				</div>
+				<div class="reinitial">
+					<span>Réinitialiser</span>
+					<br>
+					<span>les filtres</span>
+				</div>
+		  </section>
+		  
+
+
         <section class="projects">
           <div class="containerAllSites">
-            <!-- First site-->
-            <div class="containerOfSites">
+            <!-- site-1 -->
+            <div class="containerOfSites html css">
               <a
                 href="https://sergemiro.github.io/sergiyMirochnyk_2_30032021/"
                 target="blank"
-                ><img src="img/site1.PNG" alt="ReserviaSite"
+                ><img src="img/site1.PNG" alt="Reservia"
               /></a>
             </div>
-
-            <!-- Seconde site-->
-            <div class="containerOfSites">
+			
+            <!-- site-2 -->
+            <div class="containerOfSites html sass">
               <a
                 href="https://sergemiro.github.io/sergiyMirochnyk_3_08052021/"
                 target="blank"
-                ><img src="img/site2.PNG" alt="ohMyFoodSite"
+                ><img src="img/site2.PNG" alt="Oh My Food"
               /></a>
             </div>
 
-            <!--Thirth site-->
-            <div class="containerOfSites">
+            <!-- site-3 -->
+            <div class="containerOfSites html css js">
               <a
                 href="https://sergemiro.github.io/sergiyMirochnyk_4_28062021/"
                 target="blank"
-                ><img src="img/site3.PNG" alt="gameOnSite"
+                ><img src="img/site3.PNG" alt="Game On"
               /></a>
             </div>
-          </div>
-        </section>
 
-        <section class="sectionContact">
-          <div class="containerContact">
-            <p>Prêt à démarrer la création de votre site web ?</p>
-            <br />
-            <button
-              class="buttonContact"
-              onclick="document.location='contact.html'"
-            >
-              Contactez-moi
-            </button>
+			   <!-- site-4 -->
+            <div class="containerOfSites html sass js">
+					<a
+					  href="https://sergemiro.github.io/sergiyMirochnyk_6_03082021/"
+					  target="blank"
+					  ><img src="img/site4.PNG" alt="Fish"
+					/></a>
+				 </div>
+				</div>
+				 
+
+
+				 <div class="sectionContact">
+					<div class="containerContact">
+					  <p>Prêt à démarrer la création de votre site web ?</p>
+					  <br />
+					  <button
+						 class="buttonContact"
+						 onclick="document.location='contact.html'"
+					  >
+						 Contactez-moi
+					  </button>
+					</div>
+				 </div>
+
+
+
+				 <div class="containerAllSites">
+				 <!-- site-5 -->
+				 <div class="containerOfSites html sass js">
+					 <a
+						href="https://sergemiro.github.io/sergiyMirochnyk_7_02122021/"
+						target="blank"
+						><img src="img/site5.PNG" alt="Les Petits Plats"
+					 /></a>
+				  </div>
+ 
+				 <!-- site-6 -->
+				 <div class="containerOfSites html css">
+					 <a
+						href="https://sergemiro.github.io/maquetteCovid/"
+						target="blank"
+						><img src="img/site6.PNG" alt="Go Corona"
+					 /></a>
+				  </div>
+ 
+				 <!-- site-7 -->
+				 <div class="containerOfSites html sass js react">
+					 <a
+						href="https://kasa-sergemiro.netlify.app/"
+						target="blank"
+						><img src="img/site7.PNG" alt="Kasa"
+					 /></a>
+				  </div>
+ 
+								<!-- site-8 -->
+				 <div class="containerOfSites html css js react" style="padding-bottom: 10px">
+					 <a
+						href="https://github.com/SergeMiro/SergiyMirochnyk_12_052022"
+						target="blank"
+						><img src="img/site8.PNG" alt="SportSee"
+					 /></a>
+				  </div>
+
           </div>
         </section>
       </main>
@@ -116,9 +205,11 @@
         </div>
       </footer>
     </div>
-    <!-- Подключаем jQuery -->
+    <!-- Подключаем jQuery-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
     <!-- Подключаем файл JS скриптов -->
     <script src="js/script.js"></script>
+	 <script src="js/filter.js"></script>
   </body>
 </html>
