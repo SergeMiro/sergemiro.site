@@ -607,7 +607,6 @@ li a:after{
 
 
 .containerAllSites{
-	clear: both;
    display: flex;
    flex-direction: column;
    max-width: 100%;
@@ -619,21 +618,10 @@ li a:after{
 
 .containerOfSites  {
     display: flex;
-    width: auto;
+    width: 100%;
     height: auto;
 justify-content: center;  
 -webkit-tap-highlight-color: transparent;
-}
-
-img {
-	padding: 0px 1px;
-    width: 900px;
-    height: auto;
-    cursor: pointer;
-    -webkit-box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);
-    -moz-box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);
-    box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);	 
-	 
 }
 
 .containerOfSites img{
@@ -648,6 +636,7 @@ img {
 	box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);	
 	transition: all .3s ease-in-out;	 
 }
+
 .containerOfSites img:hover{
 	-webkit-box-shadow: 10px 10px 6px 4px #9e76b1af;
 	-moz-box-shadow: 10px 10px 6px 4px #9e76b1af;
@@ -973,8 +962,17 @@ background-color: #b87ecfd4;
 		  }
 
 		  .block_cv img {
-			border-radius: 15px;	
-		  }
+			border-radius: 15px;
+				position: relative;
+				max-width: 100%;
+				padding: 0px 1px;
+				width: 900px;
+				height: auto;
+				-webkit-box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);
+				-moz-box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);
+				box-shadow: 10px 10px 6px 2px rgba(34, 60, 80, 0.26);	
+				transition: all .3s ease-in-out;	 
+			}
 		  
 		  .download_cv{
 			display: flex;
@@ -1541,6 +1539,7 @@ background-color: #b87ecfd4;
 	width: 100%;
 	height: auto;
 	transition: all .2s ease-in-out;
+	cursor: pointer;
 }
 .container__filter img:hover{
 	transform: scale(1.15);
@@ -1557,12 +1556,9 @@ background-color: #b87ecfd4;
 transform: translate(-1px, -11px);
 }
 
-
 .hide{
 	display: none;
 }
-
-
 
 
 
