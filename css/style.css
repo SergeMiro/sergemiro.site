@@ -1525,6 +1525,7 @@ background-color: #b87ecfd4;
 
 .container__filter{
 	width: 50px;
+	-webkit-tap-highlight-color: transparent;
 }
 .container__filter img{
 	margin: 0 auto;
