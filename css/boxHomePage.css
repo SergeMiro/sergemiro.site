@@ -22,6 +22,9 @@ html {
   transform: rotateX(195deg) rotateY(173deg) rotateZ(173deg);
   opacity: 0.85;
   border-radius: 20px;
+  -webkit-box-shadow: 15px -16px 6px 0px rgba(12, 13, 13, 0.53);
+-moz-box-shadow: 15px -16px 6px 0px rgba(12, 13, 13, 0.53);
+box-shadow: 15px -16px 6px 0px rgba(12, 13, 13, 0.53);
 }
 
 @media only screen and (max-width: 800px) {
