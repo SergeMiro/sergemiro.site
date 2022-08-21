@@ -1,0 +1,22 @@
+{
+  "name": "sergemiro.com",
+  "version": "1.0.0",
+  "description": "SergeMiro portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeMiro/sergemiro.site.git"
+  },
+  "author": "SergeMiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeMiro/sergemiro.site/issues"
+  },
+  "homepage": "https://github.com/SergeMiro/sergemiro.site#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
