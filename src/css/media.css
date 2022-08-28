@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
 
 @media (min-width:1201px){
+	.containerAllSites{
+		margin: 0 auto 20px;
+	}
 	.container__filter{
 		margin: 0 10px;
 		height: 50px;
@@ -58,8 +61,8 @@
 		font-family: 'Limelight', cursive;
 		color: #743ca2f7;
 		text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
--webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
--moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+		-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+		-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
 		}
 	
 	.flexService{
@@ -67,12 +70,15 @@
 		width: 30%;
 		}
 
-		.flexService h3{
-			padding-bottom: 10px;
-			}
-			.flexFooter2{
-				margin: 10px 70px 2px 70px;
-				width: 35%;		
+	.flexService h3{
+		padding-bottom: 10px;
+		text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+		-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+		-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+	}
+	.flexFooter2{
+		margin: 10px 70px 2px 70px;
+		width: 35%;		
 	}
 	.sectionContact {
 		margin: 0;
@@ -108,6 +114,9 @@
 }
 
 @media (max-width:1200px){
+	.containerAllSites{
+		margin: 0 auto 20px;
+	}
 	.block_cv img {
 		width: 100%;
 	  }
@@ -169,12 +178,15 @@
 		margin: 15px;
 		width: 30%;
 		}
-		.flexService h3{
-			padding-bottom: 10px;
-			}
-			.flexFooter2{
-				margin: 10px 70px 2px 70px;
-				width: 35%;
+	.flexService h3{
+		padding-bottom: 10px;
+		text-shadow:0px 1px 0 rgba(189, 233, 201, 0.77),0px -1px 0 rgba(189, 233, 201, 0.77),1px 0px 0 rgba(189, 233, 201, 0.77),-1px 0px 0 rgba(189, 233, 201, 0.77),1px 1px 0 rgba(189, 233, 201, 0.77),1px -1px 0 rgba(189, 233, 201, 0.77),-1px 1px 0 rgba(189, 233, 201, 0.77),-1px -1px 0 rgba(189, 233, 201, 0.77),0px 2px 0 rgba(189, 233, 201, 0.77),0px -2px 0 rgba(189, 233, 201, 0.77),2px 0px 0 rgba(189, 233, 201, 0.77),-2px 0px 0 rgba(189, 233, 201, 0.77),2px 2px 0 rgba(189, 233, 201, 0.77),2px -2px 0 rgba(189, 233, 201, 0.77),-2px 2px 0 rgba(189, 233, 201, 0.77),-2px -2px 0 rgba(189, 233, 201, 0.77);
+		-webkit-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+		-moz-text-shadow:0px 1px 0 rgb(189,233,201),0px -1px 0 rgb(189,233,201),1px 0px 0 rgb(189,233,201),-1px 0px 0 rgb(189,233,201),1px 1px 0 rgb(189,233,201),1px -1px 0 rgb(189,233,201),-1px 1px 0 rgb(189,233,201),-1px -1px 0 rgb(189,233,201),0px 2px 0 rgb(189,233,201),0px -2px 0 rgb(189,233,201),2px 0px 0 rgb(189,233,201),-2px 0px 0 rgb(189,233,201),2px 2px 0 rgb(189,233,201),2px -2px 0 rgb(189,233,201),-2px 2px 0 rgb(189,233,201),-2px -2px 0 rgb(189,233,201);
+	}
+	.flexFooter2{
+		margin: 10px 70px 2px 70px;
+		width: 35%;
 	}		
 	.sectionContact {
 		margin: 3px 0;
@@ -512,6 +524,9 @@
 /*****************************************************/
 /**** ДОПОЛНИТЕЛЬНЫЙ BREAKPOINT*****/
 @media (max-width:623px){
+	.containerAllSites{
+		margin: 0 auto 15px;
+	}
 	.container_cv{
 		margin: 10px 25px 0 25px;
 	  }
@@ -608,8 +623,14 @@
 		.download_cv svg:hover{
 			width: 90px;
 		}
+		.buttonContact{
+			font-size: 16px !important;
+		}
 }
 @media (max-width:480px){
+	.containerAllSites{
+		margin: 0 auto 10px;
+	}
 	.container_cv{
 		margin: 5px 20px 0 20px;
 	  }
@@ -650,6 +671,9 @@
 		width: 100%;
 		margin: 0px 0px 10px 7px;
 	 }
+	 .buttonContact{
+		font-size: 15px !important;
+	}
 }
 /****************************************************/
 
@@ -755,6 +779,7 @@
 	.buttonContact{
 		margin-top: 0px;
 		min-height: 50px;
+		font-size: 15px !important;
 	}
 	.container__filter{
 		margin: 0 2px;
