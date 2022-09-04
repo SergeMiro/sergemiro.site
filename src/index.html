@@ -1,286 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<title>SergeMiro Dev</title>
-	<link rel="stylesheet" href="css/iconsfont.css">
-	<link rel="icon" href="img/icons/favicon.ico" type="image" alt="iconLogo">	
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/boxHomePage.css">
-</head>
 
-	<!-- HEADER - La tete de notre site -->
+@@include('html/head-index.html', { 		
+	"title": "SergeMiro Dev"
+})
+
 <body>
-	<div class="wrapper">
-	<!-- Контент -->
-	<header class="header">
-		<div class='container'>
-			<div class="header__body">
-				<a href="index.html" class="header__logo">
-					<img src="img/logo.png" alt="logo">
-				</a>
-				<div class="header__burger">
-					<span></span>
+	<div class="wrapper"> <!-- CONTENT start here -->
+
+@@include('html/header.html', {})
+
+	<main class="main">
+		<section class="sectionMob">
+			<div class="glitch" data-text="< SergeMiro dév />"> < SergeMiro dév /> </div>
+		</section>
+	
+		<section class="sectionMobImg">
+			<div class="homeImageMob">
+				<img src="@img/1.gif" alt="homeImageMob" style="opacity: 0.85; border-radius: 10px">
+			</div>
+		</section>
+		
+		<section class="box">
+			<div class="container"> 
+				<div class="slider">
+	
+						<div class="box1 box">
+								<div class="bg"></div>
+								<div class="details">
+										<h1>Reservia</h1>
+										<p>
+											Ce site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. 
+											Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance. (Openclassrooms)
+											
+										</p>
+								</div>
+		
+	
+								<div class="illustration">
+										<a href="https://sergemiro.github.io/sergiyMirochnyk_2_30032021/" target="blank"><img src="@img/site1.PNG" alt="Reservia"></a>
+							</div>
+						</div>
+														
+						
+						<div class="box2 box">
+								<div class="bg"></div>
+								<div class="details">
+										<h1>Oh My Food</h1>
+										<p>
+											L'objectif de ce projet a été de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. (Openclassrooms)
+										</p>
+								</div>
+	
+								<div class="illustration">
+									<a href="https://sergemiro.github.io/sergiyMirochnyk_3_08052021/" target="blank"><img src="@img/site2.PNG" alt="Oh My Food"></a>
+								</div>
+						</div>
+														
+						<div class="box3 box">
+								<div class="bg"></div>
+								<div class="details">
+										<h1>Game On</h1>
+										<p>
+											PME GameOn spécialisée dans les conférences et les concours de jeux. L'objectif de ce projet a été de développer une plateforme pour les cyber-jouers. (Openclassrooms)
+										</p>
+								</div>
+	
+								<div class="illustration">
+										<a href="https://sergemiro.github.io/sergiyMirochnyk_4_28062021/" target="blank"><img src="@img/site3.PNG" alt="Game On"></a>
+								</div>
+						</div>
+														
+						<div class="box4 box">
+								<div class="bg"></div>
+								<div class="details">
+										<h1>FishEye</h1>
+										<p>
+											Le projet FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux et mettre ses services en tant que photographe. (Openclassrooms)
+										</p>
+								</div>
+	
+								<div class="illustration">
+									<a href="https://sergemiro.github.io/sergiyMirochnyk_6_03082021/" target="blank"><img src="@img/site4.PNG" alt="FishEye"></a>
+								</div>
+						</div>
+														
+						<div class="box5 box">
+								<div class="bg"></div>
+								<div class="details">
+										<h1>Kasa</h1>
+										<p>
+											Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. (Openclassrooms)
+										</p>
+								</div>
+	
+								<div class="illustration">
+									<a href="https://kasa-sergemiro.netlify.app/" target="blank"><img src="@img/site7.PNG" alt="Kasa"></a>
+								</div>
+						</div>
+														
 				</div>
-				<nav class="header__menu">
-					<ul class="header__list">
+	
+				<svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+				<svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+				<div class="trail">
+								<div class="box1 active">1</div>
+								<div class="box2">2</div>
+								<div class="box3">3</div>
+								<div class="box4">4</div>
+								<div class="box5">5</div>
+				</div>
+		</div>  
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> 
+	</section>
+	
+	
+	<br>
+	<section class="all__services">
+		<h2 id="h2Service">Services proposés</h2> 
+		<div class="containerService">
+				<div class="flexService">
+					<h3>Web design</h3>
+					<p>
+						Votre identité de marque (logo, design de tous supports web) est créée sur mesure pour répondre aux besoins de votre cible:
+					</p>
+					<ul>
 						<li>
-							<a href="index.html" class="header__link">Accueil</a>
+							Design de site internet
 						</li>
 						<li>
-							<a href="projects.html" class="header__link">Projets</a>
+							Application web & mobile
 						</li>
 						<li>
-							<a href="contact.html" class="header__link">Contact</a>
-						</li>
-						<li>
-							<a href="cv.html" class="header__link">Mon CV</a>
+							Mise en page de contenu
 						</li>
 					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
-
-
-<main class="main">
-	<section class="sectionMob">
-		<div class="glitch" data-text="< SergeMiro dév />"> < SergeMiro dév /> </div>
-	</section>
-
-	<section class="sectionMobImg">
-		<div class="homeImageMob">
-			<img src="img/1.gif" alt="homeImageMob" style="opacity: 0.85; border-radius: 10px">
-		</div>
-	</section>
-	
-	<section class="box">
-		<div class="container"> 
-			<div class="slider">
-
-					<div class="box1 box">
-							<div class="bg"></div>
-							<div class="details">
-									<h1>Reservia</h1>
-									<p>
-										Ce site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. 
-										Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance. (Openclassrooms)
-										
-									</p>
-							</div>
-	
-
-							<div class="illustration">
-									<a href="https://sergemiro.github.io/sergiyMirochnyk_2_30032021/" target="blank"><img src="img/site1.PNG" alt="Reservia"></a>
-						</div>
-					</div>
-													
-					
-					<div class="box2 box">
-							<div class="bg"></div>
-							<div class="details">
-									<h1>Oh My Food</h1>
-									<p>
-										L'objectif de ce projet a été de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. (Openclassrooms)
-									</p>
-							</div>
-
-							<div class="illustration">
-								<a href="https://sergemiro.github.io/sergiyMirochnyk_3_08052021/" target="blank"><img src="img/site2.PNG" alt="Oh My Food"></a>
-							</div>
-					</div>
-													
-					<div class="box3 box">
-							<div class="bg"></div>
-							<div class="details">
-									<h1>Game On</h1>
-									<p>
-										PME GameOn spécialisée dans les conférences et les concours de jeux. L'objectif de ce projet a été de développer une plateforme pour les cyber-jouers. (Openclassrooms)
-									</p>
-							</div>
-
-							<div class="illustration">
-									<a href="https://sergemiro.github.io/sergiyMirochnyk_4_28062021/" target="blank"><img src="img/site3.PNG" alt="Game On"></a>
-							</div>
-					</div>
-													
-					<div class="box4 box">
-							<div class="bg"></div>
-							<div class="details">
-									<h1>FishEye</h1>
-									<p>
-										Le projet FishEye est un site web qui permet aux photographes indépendants de présenter leurs meilleurs travaux et mettre ses services en tant que photographe. (Openclassrooms)
-									</p>
-							</div>
-
-							<div class="illustration">
-								<a href="https://sergemiro.github.io/sergiyMirochnyk_6_03082021/" target="blank"><img src="img/site4.PNG" alt="FishEye"></a>
-							</div>
-					</div>
-													
-					<div class="box5 box">
-							<div class="bg"></div>
-							<div class="details">
-									<h1>Kasa</h1>
-									<p>
-										Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. (Openclassrooms)
-									</p>
-							</div>
-
-							<div class="illustration">
-								<a href="https://kasa-sergemiro.netlify.app/" target="blank"><img src="img/site7.PNG" alt="Kasa"></a>
-							</div>
-					</div>
-													
-			</div>
-
-			<svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
-			<svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
-			<div class="trail">
-							<div class="box1 active">1</div>
-							<div class="box2">2</div>
-							<div class="box3">3</div>
-							<div class="box4">4</div>
-							<div class="box5">5</div>
-			</div>
-	</div>  
-	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> 
-</section>
-
-
-<br>
-<section class="all__services">
-	<h2 id="h2Service">Services proposés</h2> 
-	<div class="containerService">
-			<div class="flexService">
-				<h3>Web design</h3>
-				<p>
-					Votre identité de marque (logo, design de tous supports web) est créée sur mesure pour répondre aux besoins de votre cible:
-				</p>
-				<ul>
-					<li>
-						Design de site internet
-					</li>
-					<li>
-						Application web & mobile
-					</li>
-					<li>
-						Mise en page de contenu
-					</li>
-				</ul>
-			</div>
-
-			<div class="flexService">
-				<h3>Développement de site web</h3>
-				<p>
-					La création de site web est indispensable pour améliorer la visibilité de ses activités. Le développement de votre site web est réalisé avec soin et répond aux standards web du W3C:
-				</p>
-					<ul>
-						<li>
-							HTML5 & CSS3
-						</li>
-						<li>
-							Design responsive (adaptable ordinateur, tablette, smartphone)
-						</li>
-				 </ul>
-			</div>
-			
-			<div class="flexService">
-				<h3>Développement d'application mobile</h3>
-				<p>
-					Aujourd’hui, plus de la moitié du traffic sur le web est réalisé via un périphérique mobile (smartphone, tablette). Le développement d’une application mobile pour votre entreprise est donc un service devenu incontournable:
-				</p>
-					<ul>
-						<li>
-							Développement d’application iOS (iPhone, iPad)
-						</li>
-						<li>
-							Développement d’application Android (Samsung, Sony, Huawei, Xiaomi …)
-						</li>
-				 </ul>
 				</div>
-			
-
-			<div class="flexService">
-				<h3>Référencement (SEO)</h3>
-				<p>
-					Votre site internet est développé avec pour objectif d’apparaître dans les premières pages sur les moteurs de recherche:
-				</p>
-					<ul>
-						<li>
-							Temps de chargement des pages optimisés
-						</li>
-						<li>
-							Indexation automatique des pages
-						</li>
-						<li>
-							Intégration des différents réseaux sociaux
-						</li>
-				 </ul>
-				</div>
-		 
+	
 				<div class="flexService">
-					<h3>Hébergement</h3>
-					<p>
-						Votre site internet est hébergé sur un serveur puissant, robuste, supportant la montée en charge et situé au plus proche de vos visiteurs:
-					</p>
-						<ul>
-							<li>
-								Serveurs dédiés       
-							</li>
-							<li>
-								Serveurs dans le cloud
-							</li>
-					 </ul>
-					</div>
-
-					<div class="flexService">
-						<h3>Maintenance</h3>
-						<p>
-							Un site internet en bonne santé est un site internet mis à jour.
-							Les forfaits de maintenance proposés sont le fruits d’années d’expérience et des solutions apportées à mes clients afin de vous garantir un site internet performant et fiable:
-						</p>
-							<ul>
-								<li>
-									Maintenance WordPress  
-								</li>
-								<li>
-									Maintenance E-commerce
-								</li>
-						 </ul>
-						</div>
-			</div>
-</section>
-
-
-	<section class="box__desktop">
-		<h2 id="h2Service2">Services proposés</h2> 
-		<div class="box__desktop__container">
-			<div class="container__item">
-				<div class="compact">
-				<h3>Web design</h3>
-				<p>
-					Votre identité de marque (logo, design de tous supports web) est créée sur mesure pour répondre aux besoins de votre cible:
-				</p>
-				<ul>
-					<li>
-						Design de site internet
-					</li>
-					<li>
-						Application web & mobile
-					</li>
-					<li>
-						Mise en page de contenu
-					</li>
-				</ul>
-			</div>
-		</div>
-			<div class="container__item2">
-				<div class="compact">
 					<h3>Développement de site web</h3>
 					<p>
 						La création de site web est indispensable pour améliorer la visibilité de ses activités. Le développement de votre site web est réalisé avec soin et répond aux standards web du W3C:
@@ -292,27 +152,26 @@
 							<li>
 								Design responsive (adaptable ordinateur, tablette, smartphone)
 							</li>
-					</ul>
+					 </ul>
 				</div>
-			</div>
-			<div class="container__item3">
-				<div class="compact">
-				<h3>Développement d'application mobile</h3>
-				<p>
-					Aujourd’hui, plus de la moitié du traffic sur le web est réalisé via un périphérique mobile (smartphone, tablette). Le développement d’une application mobile pour votre entreprise est donc un service devenu incontournable:
-				</p>
-					<ul>
-						<li>
-							Développement d’application iOS (iPhone, iPad)
-						</li>
-						<li>
-							Développement d’application Android (Samsung, Sony, Huawei, Xiaomi …)
-						</li>
-				 </ul>
-			</div>
-			</div>
-			<div class="container__item4">
-				<div class="compact">
+				
+				<div class="flexService">
+					<h3>Développement d'application mobile</h3>
+					<p>
+						Aujourd’hui, plus de la moitié du traffic sur le web est réalisé via un périphérique mobile (smartphone, tablette). Le développement d’une application mobile pour votre entreprise est donc un service devenu incontournable:
+					</p>
+						<ul>
+							<li>
+								Développement d’application iOS (iPhone, iPad)
+							</li>
+							<li>
+								Développement d’application Android (Samsung, Sony, Huawei, Xiaomi …)
+							</li>
+					 </ul>
+					</div>
+				
+	
+				<div class="flexService">
 					<h3>Référencement (SEO)</h3>
 					<p>
 						Votre site internet est développé avec pour objectif d’apparaître dans les premières pages sur les moteurs de recherche:
@@ -328,74 +187,160 @@
 								Intégration des différents réseaux sociaux
 							</li>
 					 </ul>
-				</div>
-			</div>
-			<div class="container__item5">
-				<div class="compact">
-					<h3>Hébergement</h3>
-					<p>
-						Votre site internet est hébergé sur un serveur puissant, robuste, supportant la montée en charge et situé au plus proche de vos visiteurs:
-					</p>
-						<ul>
-							<li>
-								Serveurs dédiés       
-							</li>
-							<li>
-								Serveurs dans le cloud
-							</li>
-					 </ul>
-				</div>
-			</div>
-			<div class="container__item6">
-				<div class="compact">
-					<h3>Maintenance</h3>
+					</div>
+			 
+					<div class="flexService">
+						<h3>Hébergement</h3>
 						<p>
-							Un site internet en bonne santé est un site internet mis à jour.
-							Les forfaits de maintenance proposés sont le fruits d’années d’expérience et des solutions apportées à mes clients afin de vous garantir un site internet performant et fiable:
+							Votre site internet est hébergé sur un serveur puissant, robuste, supportant la montée en charge et situé au plus proche de vos visiteurs:
 						</p>
 							<ul>
 								<li>
-									Maintenance WordPress  
+									Serveurs dédiés       
 								</li>
 								<li>
-									Maintenance E-commerce
+									Serveurs dans le cloud
 								</li>
 						 </ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-</main>
-
-
-		<footer>
-			<div class="footer"> 
-				<div class="flexFooter1">
-					<h3>Développeur Web</h3>
-					<p>
-						Développeur Web, je suis à votre disposition pour répondre à tout type de projets.
-						Passionné par les technologies Web, je mets mes compétences au service de vos besoins dans divers domaines.
-					</p>
-				</div>
-
-				<div class="flexFooter2">
-					<h3>Contactez-moi:</h3>
-					<p>mirochnyk.sergiy@gmail.com</p>
-					<a href="https://www.linkedin.com/in/sergemiro/" target="_blank"><img src="img/icons/linkedin.png" alt="iconLinkedIn"></a>
-					<a href="https://twitter.com/SergeMiro" target="_blank"><img src="img/icons/twitter.png" alt="iconTwitter"></a>
-				</div>
-				
-			</div>
-		</footer>
+						</div>
 	
-		</div>
-				
-				<!-- Подключаем jQuery -->
-				<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-				<!-- Подключаем файл JS скриптов -->
-				<script src="js/script.js"></script>
-				<script src="js/index.js"></script>
+						<div class="flexService">
+							<h3>Maintenance</h3>
+							<p>
+								Un site internet en bonne santé est un site internet mis à jour.
+								Les forfaits de maintenance proposés sont le fruits d’années d’expérience et des solutions apportées à mes clients afin de vous garantir un site internet performant et fiable:
+							</p>
+								<ul>
+									<li>
+										Maintenance WordPress  
+									</li>
+									<li>
+										Maintenance E-commerce
+									</li>
+							 </ul>
+							</div>
+				</div>
+	</section>
+	
+	
+		<section class="box__desktop">
+			<h2 id="h2Service2">Services proposés</h2> 
+			<div class="box__desktop__container">
+				<div class="container__item">
+					<div class="compact">
+					<h3>Web design</h3>
+					<p>
+						Votre identité de marque (logo, design de tous supports web) est créée sur mesure pour répondre aux besoins de votre cible:
+					</p>
+					<ul>
+						<li>
+							Design de site internet
+						</li>
+						<li>
+							Application web & mobile
+						</li>
+						<li>
+							Mise en page de contenu
+						</li>
+					</ul>
+				</div>
+			</div>
+				<div class="container__item2">
+					<div class="compact">
+						<h3>Développement de site web</h3>
+						<p>
+							La création de site web est indispensable pour améliorer la visibilité de ses activités. Le développement de votre site web est réalisé avec soin et répond aux standards web du W3C:
+						</p>
+							<ul>
+								<li>
+									HTML5 & CSS3
+								</li>
+								<li>
+									Design responsive (adaptable ordinateur, tablette, smartphone)
+								</li>
+						</ul>
+					</div>
+				</div>
+				<div class="container__item3">
+					<div class="compact">
+					<h3>Développement d'application mobile</h3>
+					<p>
+						Aujourd’hui, plus de la moitié du traffic sur le web est réalisé via un périphérique mobile (smartphone, tablette). Le développement d’une application mobile pour votre entreprise est donc un service devenu incontournable:
+					</p>
+						<ul>
+							<li>
+								Développement d’application iOS (iPhone, iPad)
+							</li>
+							<li>
+								Développement d’application Android (Samsung, Sony, Huawei, Xiaomi …)
+							</li>
+					 </ul>
+				</div>
+				</div>
+				<div class="container__item4">
+					<div class="compact">
+						<h3>Référencement (SEO)</h3>
+						<p>
+							Votre site internet est développé avec pour objectif d’apparaître dans les premières pages sur les moteurs de recherche:
+						</p>
+							<ul>
+								<li>
+									Temps de chargement des pages optimisés
+								</li>
+								<li>
+									Indexation automatique des pages
+								</li>
+								<li>
+									Intégration des différents réseaux sociaux
+								</li>
+						 </ul>
+					</div>
+				</div>
+				<div class="container__item5">
+					<div class="compact">
+						<h3>Hébergement</h3>
+						<p>
+							Votre site internet est hébergé sur un serveur puissant, robuste, supportant la montée en charge et situé au plus proche de vos visiteurs:
+						</p>
+							<ul>
+								<li>
+									Serveurs dédiés       
+								</li>
+								<li>
+									Serveurs dans le cloud
+								</li>
+						 </ul>
+					</div>
+				</div>
+				<div class="container__item6">
+					<div class="compact">
+						<h3>Maintenance</h3>
+							<p>
+								Un site internet en bonne santé est un site internet mis à jour.
+								Les forfaits de maintenance proposés sont le fruits d’années d’expérience et des solutions apportées à mes clients afin de vous garantir un site internet performant et fiable:
+							</p>
+								<ul>
+									<li>
+										Maintenance WordPress  
+									</li>
+									<li>
+										Maintenance E-commerce
+									</li>
+							 </ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	@@include('html/footer.html', {})
+
+	</div> 	<!-- WRAPPER-container closed-->
+
+				<script src="js/app.min.js"></script>
+				<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> <!-- Подключаем jQuery -->
+				<!-- <script src="js/script.js"></script>
+				<script src="js/index.js"></script> -->
 
 	</body>
 </html>

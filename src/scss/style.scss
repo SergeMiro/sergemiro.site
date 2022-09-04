@@ -966,7 +966,7 @@ background-color: #b87ecfd4;
 				transition: all .3s ease-in-out;	 
 			}
 		  
-		  .download_cv{
+		.download_cv{
 			display: flex;
 			width: auto;
 			height: auto;
@@ -976,7 +976,7 @@ background-color: #b87ecfd4;
 
 		.download_cv svg{
 			box-shadow: none;
-			fill: #3c915e;
+			fill: #F2E5DD;
 			cursor: pointer;
 			transition: all .5s ease-in-out;
 
@@ -984,7 +984,7 @@ background-color: #b87ecfd4;
 
 		.download_cv svg:hover{
 			box-shadow: none;
-			fill: #85c19d;
+			fill: #f2e5ddc4;
 			transition: all .5s ease-in-out;
 		}
 

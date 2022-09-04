@@ -1,49 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-    <title>Miro Development</title>
-    <link rel="stylesheet" href="css/iconsfont.css" />
-	 <link rel="icon" href="img/icons/favicon.ico" type="image" alt="iconLogo">	
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <!-- HEADER - La tete de notre site -->
-  <body>
-    <div class="wrapper">
-      <!-- Контент -->
-		<header class="header">
-			<div class='container'>
-				<div class="header__body">
-					<a href="index.html" class="header__logo">
-						<img src="img/logo.png" alt="logo">
-					</a>
-					<div class="header__burger">
-						<span></span>
-					</div>
-					<nav class="header__menu">
-						<ul class="header__list">
-							<li>
-								<a href="index.html" class="header__link">Accueil</a>
-							</li>
-							<li>
-								<a href="projects.html" class="header__link">Projets</a>
-							</li>
-							<li>
-								<a href="contact.html" class="header__link">Contact</a>
-							</li>
-							<li>
-								<a href="cv.html" class="header__link">Mon CV</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+@@include('html/head-cv.html', { 		
+	"title": "Mon CV"
+})
+
+<body>
+	<div class="wrapper"> <!-- CONTENT start here -->
+@@include('html/header.html', {})
 
       <main class="main">
 		<section class="container_cv">
@@ -51,39 +15,21 @@
 				<img src="./img/cv.jpg" alt="Mirochnyk Sergiy CV">
 			</div>
 			<div class="download_cv">
-				<a href="./data/cv_Mirochnyk.pdf" download="CV Mirochnyk" alt="CV Mirochnyk">
+				<a href="./files/cv_Mirochnyk.pdf" download="CV Mirochnyk" alt="CV Mirochnyk">
 					<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>CV Mirochnyk Sergiy</title><path class="cls-1" d="M25.2,0H97.68a25.27,25.27,0,0,1,25.2,25.2V97.68a25.27,25.27,0,0,1-25.2,25.2H25.2A25.27,25.27,0,0,1,0,97.68V25.2A25.27,25.27,0,0,1,25.2,0ZM72.92,49.32a3.83,3.83,0,0,1,5.37,5.46L63.75,69.14a3.84,3.84,0,0,1-5.37,0L44.05,55a3.83,3.83,0,1,1,5.36-5.46l7.89,7.82.08-27.53a3.83,3.83,0,0,1,7.66.06L65,57.19l8-7.87ZM31,84.48l.05-15a3.83,3.83,0,0,1,7.66.07l0,10.91q22.82,0,45.61,0l0-11a3.83,3.83,0,0,1,7.66.07l-.05,14.91h0A3.83,3.83,0,0,1,88,88.13q-26.66,0-53.28,0A3.83,3.83,0,0,1,31,84.48Z"/></svg>
 				</a>
 			</div>
 		</section>
 		</main>
 
-      <footer>
-        <div class="footer">
-          <div class="flexFooter1">
-            <h3>Développeur Web</h3>
-            <p>
-              Développeur Web, je suis à votre disposition pour répondre à tout
-              type de projets. Passionné par les technologies Web, je mets mes
-              compétences au service de vos besoins dans divers domaines.
-            </p>
-          </div>
+@@include('html/footer.html', {})
 
-			 <div class="flexFooter2">
-				<h3>Contactez-moi:</h3>
-				<p>mirochnyk.sergiy@gmail.com</p>
-				<a href="https://www.linkedin.com/in/sergemiro/" target="_blank"><img src="img/icons/linkedin.png" alt="iconLinkedIn"></a>
-				<a href="https://twitter.com/SergeMiro" target="_blank"><img src="img/icons/twitter.png" alt="iconTwitter"></a>
-			</div>
+	</div> 	<!-- WRAPPER-container closed-->
 
-        </div>
-      </footer>
-    </div>
-
-						<!-- Подключаем jQuery -->
-						<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-						<!-- Подключаем файл JS скриптов -->
-						<script src="js/script.js"></script>
-						<script src="js/index.js"></script>
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
+		<script src="js/index.js"></script>
   </body>
 </html>
